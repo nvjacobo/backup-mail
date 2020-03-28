@@ -74,8 +74,18 @@ Adicionalmente agregamos la siguiente variable para evitar que se descargue todo
 [options]
 read_all = False
 
+```
+
+Por default Getmail descarga la carpeta INBOX. Si desea descargar todas las carpetas de su buzón tendrá que utilizar la siguiente variable, para su archivo de configuración. 
 
 ```
+mailboxes = ALL
+
+```
+
+
+
+
 Finalmente corremos getmail
 
 ```
